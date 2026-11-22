@@ -1,0 +1,32 @@
+{
+  "functional_version": "single-DAT-v3",
+  "distribution": "source-only",
+  "runtime_changes_in_this_package": false,
+  "source_regressions": {
+    "panel": 8,
+    "stock_readiness": 6,
+    "firmware_parser_environment_profiles": 26,
+    "total": 40
+  },
+  "verified_behaviour": [
+    "One selected DAT, original or compatible modified firmware",
+    "Selected firmware creates its own synthetic settings without a second stock DAT",
+    "Independent settings cold-readback",
+    "Selected main image observed in guest RAM",
+    "Native LCD, MENU, EXIT, tuning dial and clean shutdown",
+    "Per-firmware settings persistence",
+    "Malformed input, wrong fingerprint and invalid explicit paths rejected"
+  ],
+  "scope": [
+    "Partial IC-9700 main-CPU/peripheral model",
+    "External FRONT/sub-CPU/DSP/FPGA firmware is not executed",
+    "No physical radio, RF, transmitter-safety or update-recovery certification",
+    "Platform coverage is described in the installation and testing documentation"
+  ],
+  "runtime_regressions_rechecked": {
+    "original_input": true,
+    "modified_input": true,
+    "selected_main_matches_guest_RAM": true,
+    "navigation_dial_and_clean_shutdown": true
+  }
+}

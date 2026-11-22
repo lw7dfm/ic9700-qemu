@@ -1,0 +1,49 @@
+IC-9700 QEMU Emulator — LW7DFM
+Attribution and license scope
+
+The MIT text in LICENSE applies to project-owned material and MIT-derived
+components. It does not relicense the GPL files listed below, upstream QEMU,
+other dependencies, or Icom firmware.
+
+IC-9700 adaptation, integration and project-owned documentation:
+Copyright (c) 2026 Federico Menthe, LW7DFM.
+
+Based on https://github.com/jeskko/ic7300-homebrew
+Copyright (c) 2026 Jarkko Vääräniemi (Jeskko), MIT.
+The original MIT notice is preserved in LICENSES/jeskko-MIT.txt. Existing source
+headers are retained; the project does not claim authorship of upstream work.
+
+Most imported machine models are MIT-derived. Exceptions:
+- qemu-machine/src/rspi0.c and ref_meter.c: GPL-2.0-or-later, as their SPDX
+  headers specify. Preserve those headers.
+- qemu-machine/patches/hw-arm-build.patch modifies QEMU's build system. The
+  original project's notice identifies this integration patch as
+  GPL-2.0-or-later; QEMU's applicable notices and license terms remain in force.
+
+QEMU: https://www.qemu.org/ — Fabrice Bellard and the QEMU contributors.
+QEMU as a whole is distributed under GPL version 2; individual files may have
+other compatible licenses. Do not assume every upstream file is GPL-2.0-or-later.
+See LICENSES/QEMU-COPYING.txt and the LICENSE/COPYING and per-file notices in the
+pinned source downloaded by the installer. A combined executable must follow
+QEMU's applicable GPL terms. This release ships no QEMU executable. If you
+redistribute one, retain the matching corresponding source and notices; a
+source URL alone is not a blanket substitute for your distribution obligations.
+
+Generic Icom RZ/A1 decoder in scripts/vendor/: MIT,
+Copyright (c) 2026 Dawid SQ6EMM <sq6emm@hamradio.pl>.
+The supplied vendor LICENSE is retained; no proprietary firmware bytes are
+included. Exact upstream revision of this imported decoder is not claimed.
+Only the decoder is included, not another project's firmware modifications.
+
+Python and Tcl/Tk, GLib, Pixman, zlib and build tools are separately obtained
+dependencies with their own upstream licenses; they are not bundled here.
+QEMU's build may obtain additional subprojects, retaining their own notices.
+
+Icom firmware, graphics, native UI output and firmware-derived data remain
+Icom's material, not ours to license. None is included. The user supplies the
+selected DAT separately and is responsible for applicable terms and law.
+No real-device EEPROM, calibration, dumps or personal data is distributed.
+
+Icom and IC-9700 are trademarks of Icom Inc. This project is independent,
+not affiliated with or endorsed by Icom. License notes describe the delivered
+source set and are not a legal opinion or blanket rights clearance.

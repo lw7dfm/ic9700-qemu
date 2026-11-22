@@ -1,0 +1,29 @@
+diff --git a/hw/arm/Kconfig b/hw/arm/Kconfig
+index 6f5b2ad..c707398 100644
+--- a/hw/arm/Kconfig
++++ b/hw/arm/Kconfig
+@@ -727,3 +727,13 @@ config ARMSSE
+     select UNIMP
+     select SSE_COUNTER
+     select SSE_TIMER
++
++config RZA1H
++    bool
++    default y
++    depends on TCG && ARM
++    select ARM_GIC
++    select UNIMP
++    select SD
++    select BITBANG_I2C
++    select AT24C
+diff --git a/hw/arm/meson.build b/hw/arm/meson.build
+index 4233a80..583ef5c 100644
+--- a/hw/arm/meson.build
++++ b/hw/arm/meson.build
+@@ -111,5 +111,6 @@ arm_common_ss.add(when: 'CONFIG_VERSATILE', if_true: files('versatilepb.c'))
+ arm_common_ss.add(when: 'CONFIG_VEXPRESS', if_true: files('vexpress.c'))
+ 
+ arm_common_ss.add(files('boot.c'))
++arm_common_ss.add(when: 'CONFIG_RZA1H', if_true: files('rz_a1h.c', 'rspi0.c', 'ref_meter.c', 'ostm.c', 'spibsc.c', 'wdt.c', 'stbc.c', 'gpio.c', 'l2c.c', 'scif.c', 'mmc.c', 'sdhi.c', 'riic.c', 'mtu2.c', 'dmac.c', 'rspi2.c', 'openvg.c', 'rx8803.c', 'adc.c', 'vdc5.c', 'fake_dsp.c', 'fake_fpga.c', 'ssif.c'))
+ 
+ hw_common_arch += {'arm': arm_common_ss}

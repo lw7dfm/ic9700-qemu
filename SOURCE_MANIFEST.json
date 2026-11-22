@@ -1,0 +1,264 @@
+{
+  "project": "IC-9700 QEMU Emulator — LW7DFM",
+  "functional_version": "single-DAT-v3",
+  "distribution": "source",
+  "qemu_revision": "c3d48b7d1e89604920e5b81b91140c2ad39a1943",
+  "files": {
+    ".gitignore": {
+      "sha256": "e0269bcd0af7907956efa3099d6b12493a5484ec8c593628782e402402665aa0",
+      "bytes": 256
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "745ae26d64350bddfa29055f0de8bb108e974cfc405b2f54cc84ecb51932c514",
+      "bytes": 1092
+    },
+    "INSTALL.sh": {
+      "sha256": "d107d98eb538ab177228871e18c187aa86688bbcfbf6f550ce09eb7fafcef590",
+      "bytes": 1701
+    },
+    "LICENSE": {
+      "sha256": "59f3689b8101cd4b282729ad947be9eb1e5717407aa869d31f7c4e63510455c6",
+      "bytes": 1121
+    },
+    "LICENSES/QEMU-COPYING.txt": {
+      "sha256": "dd3ce02338c3a48abb6ba59b48809f7108a8bd242cb0cc8be90daafa30707c28",
+      "bytes": 17880
+    },
+    "LICENSES/QEMU-LICENSE.txt": {
+      "sha256": "139c64b7a9ae62858ff969aae622ecfcf4f1519655bd92d2e70a1a2fb615690e",
+      "bytes": 1177
+    },
+    "LICENSES/SQ6EMM-MIT.txt": {
+      "sha256": "e6ae019ff59a3c95d9333e627a5c4d4cfb4a55f674696e346be3e09bf9fde614",
+      "bytes": 1090
+    },
+    "LICENSES/jeskko-MIT.txt": {
+      "sha256": "b603da39b562c8328eab14b3ac5d0e11fb28e2812ad0cc20e10668a8879acc0a",
+      "bytes": 1077
+    },
+    "NOTICE": {
+      "sha256": "dbe3277a41422e625f27fddf77c1e743abd1c8a84ee440c05833ca5395410d8d",
+      "bytes": 2739
+    },
+    "README.md": {
+      "sha256": "c5cc7c126c22f0cdbe543175e7a218d6c08246cc3a30c30cff0689f9e2015a9b",
+      "bytes": 7438
+    },
+    "RELEASE_VERIFICATION.json": {
+      "sha256": "629281cd5c5138f27205ba2fc3f2cb3f22abbcbaa012c409e25efacd8c0baf31",
+      "bytes": 1199
+    },
+    "START.sh": {
+      "sha256": "3875a00b4df41ba198b41ae41cc8dc45bceed9ad889808fc85a12093d6093988",
+      "bytes": 372
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "ea694877062d8e42f0f8da6a30a23653e95358d62de2d8151c63a8dfe80dd78b",
+      "bytes": 3332
+    },
+    "docs/EXPERIMENTAL_FIRMWARE.md": {
+      "sha256": "77998737d8fdcf1c7cd22c069d56e7ebc11840800712ab22cc1384ce009e1d25",
+      "bytes": 4377
+    },
+    "docs/INSTALLATION.md": {
+      "sha256": "4aa59b56a378c9fea0fe18ce842b071afdc0d7d6bc6a027c997ae1a1c31c7422",
+      "bytes": 3589
+    },
+    "docs/PUBLICATION_CHECKLIST.md": {
+      "sha256": "7201e5325fec365218322383fb845337d2a0e8e7addab3020ddc86e732218cd4",
+      "bytes": 1015
+    },
+    "docs/TESTING.md": {
+      "sha256": "9377f7f395ce716080cc7c1bf0b64d7cfa73a516c5aa405514132f91690ccfc6",
+      "bytes": 2520
+    },
+    "docs/TROUBLESHOOTING.md": {
+      "sha256": "084c56e21b69bac779ba2f8207e93918b1c818ff38f8c68b7419b87b8efa5310",
+      "bytes": 2265
+    },
+    "firmware/README.md": {
+      "sha256": "a04fe7fb57063fc177d6f85403f62b5c76eada0c7b1d4bb65a7827ed0bd00db2",
+      "bytes": 1018
+    },
+    "qemu-machine/patches/hw-arm-build.patch": {
+      "sha256": "22892c4cc2f2849588c121aad30c71fd30f93d9631c37d57128e6c55f6b189f2",
+      "bytes": 1072
+    },
+    "qemu-machine/src/adc.c": {
+      "sha256": "679252eae15d4224fdc4f6cefef5975973307dc64d1239eabfb5a6e0c2c24777",
+      "bytes": 5558
+    },
+    "qemu-machine/src/dmac.c": {
+      "sha256": "9b49049aa46bf05757a7145caf704d19f6dfe1428eac6ada11e14bbdc55dba69",
+      "bytes": 28352
+    },
+    "qemu-machine/src/fake_dsp.c": {
+      "sha256": "3b45825830d769d2f748c2ec33dd4b49fedaf3fea069c8dc16451d1aa7189c44",
+      "bytes": 12467
+    },
+    "qemu-machine/src/fake_dsp.h": {
+      "sha256": "9cd49aa0f3b826fc7e87af1a5022be2c4f72f2f5ed76ac5ac36f7fd21c25f310",
+      "bytes": 2921
+    },
+    "qemu-machine/src/fake_fpga.c": {
+      "sha256": "4cf55bd4c6c4e96c477e3b455283089cce2691db6b9c24d4163cdf4bc43933d0",
+      "bytes": 5357
+    },
+    "qemu-machine/src/fake_fpga.h": {
+      "sha256": "9338cea9e0db2948cba088c228c83cbb9c2e4d54114753038f779dc91cf5037d",
+      "bytes": 2416
+    },
+    "qemu-machine/src/gpio.c": {
+      "sha256": "62da98225eada3b0b8abf3a723503273f19c8f54b7a7b3163e5adb0dce406d0d",
+      "bytes": 29753
+    },
+    "qemu-machine/src/l2c.c": {
+      "sha256": "13ba63746ad066e951403aef0e4166256b1b9b1af983c339daca03647b05d8fe",
+      "bytes": 3930
+    },
+    "qemu-machine/src/mmc.c": {
+      "sha256": "86c2f0a2e9594e6fcaf896ea9b7476660d8591fd395b4b68a78f73a1ea1fb4c8",
+      "bytes": 19225
+    },
+    "qemu-machine/src/mtu2.c": {
+      "sha256": "3a947f55a49655c2070b829fb71fdabe590164803c38b140678eb2181740ebb2",
+      "bytes": 46133
+    },
+    "qemu-machine/src/openvg.c": {
+      "sha256": "bc6dbbbc1790ce1b39c486f0cfc0fb757c845dd766801fc4638e7829ab831167",
+      "bytes": 35412
+    },
+    "qemu-machine/src/ostm.c": {
+      "sha256": "586bc3096f4a72fa4dad35631e999a7012320f0a8fccd264c4083fb3d7971ccc",
+      "bytes": 10032
+    },
+    "qemu-machine/src/ref_meter.c": {
+      "sha256": "96171a07b19c124b06fe94050f21484e9a39bbad641450c8d7fc9fd6a21092f1",
+      "bytes": 3655
+    },
+    "qemu-machine/src/riic.c": {
+      "sha256": "6bf2a475da8e2d18deada4ab7e58a18e81b297c98f69381e852978d20e5e37b7",
+      "bytes": 60274
+    },
+    "qemu-machine/src/rspi0.c": {
+      "sha256": "3f5f9426e5345b7f105df82316f141ae2ef133b5b12311bc1881308e24861a0e",
+      "bytes": 5260
+    },
+    "qemu-machine/src/rspi2.c": {
+      "sha256": "5f1b4ed7f5bc27c857fd58028e6bd3e3cccd68836866d3c51acc1e601828b6a9",
+      "bytes": 11001
+    },
+    "qemu-machine/src/rx8803.c": {
+      "sha256": "7412553d2d57ba0bb37780e9c1065d8306cd73c5b797c5212607a1d9edef4e47",
+      "bytes": 7423
+    },
+    "qemu-machine/src/rz_a1h.c": {
+      "sha256": "24afd21992a6b011e5cb36db28fff2ee2627d45590f1bb8eef71ea0cd991e754",
+      "bytes": 31434
+    },
+    "qemu-machine/src/rz_a1h.h": {
+      "sha256": "674548056a867d749d799d694b880e5b6765170aad4098033f1137b83d5cc160",
+      "bytes": 14458
+    },
+    "qemu-machine/src/rza1h_debug.h": {
+      "sha256": "392a7d2fa4c77909b4339fd5d540cde57ec42906f5979fb229561e0c5305702c",
+      "bytes": 4219
+    },
+    "qemu-machine/src/scif.c": {
+      "sha256": "863bf0a35f04f3674fec16b6aab328f8beb798fa8108e6e5a7fe0ec67b538c07",
+      "bytes": 78366
+    },
+    "qemu-machine/src/sdhi.c": {
+      "sha256": "fddaf4b9eda2c2eb54e1481d996e84c940bc3c4bfe7c1fdc5f09d43e777ab883",
+      "bytes": 20563
+    },
+    "qemu-machine/src/spibsc.c": {
+      "sha256": "be7bf64e87f67e733bea8c024f42999665cbae53ea3213814cfc7110b348b45d",
+      "bytes": 10018
+    },
+    "qemu-machine/src/ssif.c": {
+      "sha256": "aeaf3ed3869eb70776ae86ac1abe66fed4110bae55d1ad1f09cdbce3e67a1156",
+      "bytes": 27807
+    },
+    "qemu-machine/src/stbc.c": {
+      "sha256": "6f407681512d925c5bb74e9a8fd031fb81b2e61ef509bd8695bc0a40d1e78d52",
+      "bytes": 2918
+    },
+    "qemu-machine/src/vdc5.c": {
+      "sha256": "06b9313ab290fab456a48cb1bfa1e6340172a085c680dd9982fb29ba4f7d0c14",
+      "bytes": 13027
+    },
+    "qemu-machine/src/wdt.c": {
+      "sha256": "2aeb26a26e95dcdec76a9a4483355484dc4909ce543dedd3bb4ff510db4ba7e5",
+      "bytes": 5547
+    },
+    "requirements.txt": {
+      "sha256": "c31fcea6c0aca5e97984f758d9b3be8d4debe26b44ea3642a8f42e1ee104de28",
+      "bytes": 211
+    },
+    "scripts/build.sh": {
+      "sha256": "4b7b90ba5c2c1d630e1e07f245387e30548d1e8eaa593b672e943c88b64d96b8",
+      "bytes": 2513
+    },
+    "scripts/control_panel.py": {
+      "sha256": "2552aa6aa093434347b52ec161fcfa118fa9464fd72e02b152bba076af2e4d5b",
+      "bytes": 14340
+    },
+    "scripts/eeprom_state.py": {
+      "sha256": "2e1436e3a836296d5a65a1cc5586749704fb6e84190b0a3d9022457296e10816",
+      "bytes": 3134
+    },
+    "scripts/experimental_firmware.py": {
+      "sha256": "9e96fe07717b10b3bd6d3fb8a3570054eef95b3b8d46613860ac5930ea8e8288",
+      "bytes": 9933
+    },
+    "scripts/firmware_environment.py": {
+      "sha256": "4adc30f954d4843076857c2414a40bba39b4fe8ace80a30cb7ace1c01caa8183",
+      "bytes": 2090
+    },
+    "scripts/prepare_deps.sh": {
+      "sha256": "85a0704784040b0f1067ad19a7db900eb164ea1053cb0593829fc94f1041f705",
+      "bytes": 1450
+    },
+    "scripts/prepare_firmware.py": {
+      "sha256": "bdcc70c642e69cc3385ec822ec65ff7bec4b9c6d8ce4dc3bd0940ead6cb0ff77",
+      "bytes": 14528
+    },
+    "scripts/run_vnc.py": {
+      "sha256": "d98417e155a6db91eec6312772bb80e5fffbeebeab5e4392fff144a3c61e7543",
+      "bytes": 6353
+    },
+    "scripts/start_system.py": {
+      "sha256": "84c4d20ab8d4e575ddf0604636b9d66a2f450efc5086ba086bda614c1c46ff3c",
+      "bytes": 12227
+    },
+    "scripts/test_control_panel.py": {
+      "sha256": "b60cb55a8baed433e4e3b1ae4597483b3abf7676b75583aaae28f9bc84e5bbd8",
+      "bytes": 8073
+    },
+    "scripts/test_experimental_firmware.py": {
+      "sha256": "995f66fccebf052c35d2ea54d78c47ef1d5b9096194087de577c8cc48843dcef",
+      "bytes": 9246
+    },
+    "scripts/test_seed_validation.py": {
+      "sha256": "2e8485bf168c3e20e28b2b1034cd8d9acc85efe8bc5900fdc1f036b0edf31739",
+      "bytes": 1273
+    },
+    "scripts/vendor/LICENSE": {
+      "sha256": "e6ae019ff59a3c95d9333e627a5c4d4cfb4a55f674696e346be3e09bf9fde614",
+      "bytes": 1090
+    },
+    "scripts/vendor/icom_rza1_decode.py": {
+      "sha256": "dcb1394945a3a431060e87d26c193e0a37d6d1cfdb78067b98e6831122ccb158",
+      "bytes": 8489
+    },
+    "tests/audit_release.py": {
+      "sha256": "e41bbadce4ece5f8a57f8baddaa5f9f6e8f70065676d57369a5d61fd105a258c",
+      "bytes": 5519
+    },
+    "tests/gui_integration.py": {
+      "sha256": "58bfc0a1d0ab633aa8f1d8cfa35df22fd2951b4a617530718312e0369a10a581",
+      "bytes": 6544
+    }
+  }
+}

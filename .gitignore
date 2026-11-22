@@ -1,0 +1,22 @@
+# User-supplied or generated proprietary material — never commit
+firmware/*
+!firmware/README.md
+*.dat
+*.DAT
+*.[dD][aA][tT]
+*.bin
+*.img
+*.ppm
+*.png
+*.bmp
+*.wav
+work/
+logs/
+tools/
+qemu-machine/qemu-src/
+__pycache__/
+*.py[cod]
+.venv/
+*.sock
+*.log
+.DS_Store
