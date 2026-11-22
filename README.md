@@ -15,6 +15,24 @@ its peripheral integration, firmware-loading workflow, and desktop controls.
 QEMU and the other third-party components keep their own credits and licenses;
 I've listed them in [NOTICE](NOTICE).
 
+## Screenshots
+
+Here are two captures of the emulator running original IC-9700 v1.50 firmware
+on a Linux desktop. They show the firmware's native interface.
+
+### Main display and emulator controls
+
+![IC-9700 main display and emulator controls](https://github.com/lw7dfm/ic9700-qemu/releases/download/v1.0.0/ic9700-main-panel.png)
+
+### Native main menu
+
+![IC-9700 native main menu](https://github.com/lw7dfm/ic9700-qemu/releases/download/v1.0.0/ic9700-menu.png)
+
+I've cropped the application view to its LCD and controls, without changing the
+LCD content. These captures illustrate the interface, not RF operation. The
+Icom interface shown is not covered by my MIT license; see
+[NOTICE](NOTICE).
+
 ## What it does
 
 The emulator runs the selected DAT's bootstrap and main ARM application, and

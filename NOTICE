@@ -40,9 +40,13 @@ dependencies with their own upstream licenses; they are not bundled here.
 QEMU's build may obtain additional subprojects, retaining their own notices.
 
 Icom firmware, graphics, native UI output and firmware-derived data remain
-Icom's material, not ours to license. None is included. The user supplies the
-selected DAT separately and is responsible for applicable terms and law.
-No real-device EEPROM, calibration, dumps or personal data is distributed.
+Icom's material, not ours to license. The documentation links to two
+screenshots showing the native Icom interface running in the emulator; these
+are separate release image assets. Icom's UI content is not licensed under this
+project's MIT license. No firmware binary, decoded firmware component, flash
+image, real-device EEPROM, calibration, dump or personal data is distributed.
+The user supplies the selected DAT separately and is responsible for applicable
+terms and law. The v1.0.0 source ZIP and its checksum remain unchanged.
 
 Icom and IC-9700 are trademarks of Icom Inc. This project is independent,
 not affiliated with or endorsed by Icom. License notes describe the delivered
